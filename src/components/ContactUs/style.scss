@@ -1,0 +1,11 @@
+.ContactUs {
+  .ContactUs__SubmitButton{
+    color: $ContactUs__SubmitButton-color;
+    background-color: $ContactUs__SubmitButton-backgroundColor;
+  }
+  .ContactUs__SubmitButton:not(:disabled):hover,
+  .ContactUs__SubmitButton:not(:disabled):focus{
+    color: $ContactUs__SubmitButton--hover-color;
+    background-color: $ContactUs__SubmitButton--hover-backgroundColor;
+  }
+}

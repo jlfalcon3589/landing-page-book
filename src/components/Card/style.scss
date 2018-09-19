@@ -1,0 +1,18 @@
+.Card{
+  background-color: transparent;
+  border-radius: $Card-borderRadius;
+
+  .Card__Summary{
+    font-size: $Card__Summary-fontSize;
+    color: $Card__Summary-color;
+    background-color: $Card__Summary-backgroundColor;
+  }
+  .Card__Title{
+    font-size: $Card__Title-fontSize;
+    color: $Card__Title-color;
+  }
+  .Card__Subtitle{
+    font-size: $Card__Subtitle-fontSize;
+    color: $Card__Subtitle-color;
+  }
+}
